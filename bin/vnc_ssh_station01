@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ssh -L 5901:127.0.01:5901 -N -f -l mvasquez station01
+

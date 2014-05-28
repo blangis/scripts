@@ -1,0 +1,7 @@
+#!/bin/bash
+
+TEST_DIR=/Users/mvasquez/bin
+if [ -d $TEST_DIR ]; then
+	echo $TEST_DIR already exists. Exiting. 
+	exit
+fi
