@@ -1,16 +1,24 @@
+# import argv from sys
+
 from sys import argv
+
+# define the imput file with argv
 
 script, input_file = argv
 
+# funtion "print_all"
 def print_all(f):
     print f.read()
 
+# function "rewind"
 def rewind(f):
     f.seek(0)
 
+# function print_a_line.
 def print_a_line(line_count, f):
     print line_count, f.readline()
 
+# open current file:
 current_file = open(input_file)
 
 print "First let's print the whole file:\n"
