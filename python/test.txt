@@ -1,11 +1,7 @@
 fuck
 this 
 shit
-<<<<<<< HEAD
-this ain't some normal shit.
-=======
 fuck
 this
 shit
 again
->>>>>>> test_txt_update
