@@ -1,0 +1,1 @@
+/sw/bin/nmap -sP -n -oX out.xml 192.168.1.0/24 | grep "Nmap" | cut -d " " -f 5 > live_hosts.txt
