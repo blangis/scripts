@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="file:///sw/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.40 scan initiated Sun Jul  6 16:26:54 2014 as: /sw/bin/nmap -sP -n -oX out.xml 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="/sw/bin/nmap -sP -n -oX out.xml 192.168.1.0/24" start="1404689214" startstr="Sun Jul  6 16:26:54 2014" version="6.40" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="4317" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="80425" rttvar="80425" to="402125"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.100" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="10518" rttvar="10518" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.101" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="299" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.102" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="2851" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.105" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="82667" rttvar="82667" to="413335"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.112" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="10913" rttvar="10913" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.118" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="32234" rttvar="32234" to="161170"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.120" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="8258" rttvar="8258" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.121" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="7229" rttvar="7229" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.123" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="7996" rttvar="7996" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.124" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="7931" rttvar="7931" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.126" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="36924" rttvar="36924" to="184620"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.128" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="53733" rttvar="53733" to="268665"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.130" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="38898" rttvar="38898" to="194490"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.131" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="40231" rttvar="40231" to="201155"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.136" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="10834" rttvar="10834" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.141" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="16253" rttvar="16253" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.142" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="5483" rttvar="4553" to="100000"/>
+</host>
+<runstats><finished time="1404689216" timestr="Sun Jul  6 16:26:56 2014" elapsed="2.55" summary="Nmap done at Sun Jul  6 16:26:56 2014; 256 IP addresses (19 hosts up) scanned in 2.55 seconds" exit="success"/><hosts up="19" down="237" total="256"/>
+</runstats>
+</nmaprun>
