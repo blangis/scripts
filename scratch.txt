@@ -1,0 +1,25 @@
+function afunc
+{
+  echo in function: $0 $1 $2
+  var1="in function"
+  echo var1: $var1
+}
+
+var1="outside function"
+echo var1: $var1
+echo $0: $1 $2
+afunc funcarg1 funcarg2
+echo var1: $var1
+echo $0: $1 $2
+
+
+
+virt-install -n tester01.local.net -r 1024 --disk path=/var/lib/libvirt/images/tester01.local.net.img,size=12 -l ftp://192.168.1.95/pub/inst/ -x "ks=ftp://192.168.1.95/pub/ks-vm/ks.cfg"
+
+
+knife bootstrap ns1 --ssh-user cook --ssh-password nais4me4ever --ssh-port 22 --run-list "recipe[aliases],recipe[apache2]" --sudo
+
+
+Nina Simone Emergency Ward
+
+

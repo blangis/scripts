@@ -1,3 +1,4 @@
+#begin script
 import socket
 
 # create a socket object
