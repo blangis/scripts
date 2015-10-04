@@ -22,4 +22,6 @@ knife bootstrap ns1 --ssh-user cook --ssh-password nais4me4ever --ssh-port 22 --
 
 Nina Simone Emergency Ward
 
+This is a fucking test. 
+
 
