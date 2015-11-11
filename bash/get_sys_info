@@ -1,0 +1,7 @@
+#!/bin/bash
+
+df -h\n
+free -m\
+uptime
+
+
