@@ -1,0 +1,8 @@
+#!/bin/bash ###-x 
+
+if [ -e /etc/passwd ]
+then
+	echo "This bitch has a passwd file."
+else
+	echo "This bitch has no passwd file."
+fi
