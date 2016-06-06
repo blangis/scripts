@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+for file in file{1..5}.jpg
+  do touch $file
+done
+
+#for i in *.txt
+#  do mv $i $i.bak
+#done
+
+#if [ -f $1..20} ]
+#then 
+#   mv $file $file.bak
+#else
+#   echo "no files to move."
+#fi

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+FILES=$(ls *txt)
+DATE=$(date +%F)
+
+for file in file{1..20}.txt
+  do touch $file
+done
+
+for FILE in $FILES
+  do
+    echo "Renaming ${FILES} to ${DATE}"
+    mv ${FILE} ${DATE}-$${FILE}
+done
+
