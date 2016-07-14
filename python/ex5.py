@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 name = 'Mark R. Vasquez'
 age = 46
 height = 72 * 2.540 # inches multiplied by centimeters.
@@ -15,4 +17,3 @@ print "He's got %s eyes and %s hair." % (eyes, hair)
 print "his teeth are usually %s and his breath smells like shit." % teeth
 
 print "If I add %d, %d, and %d I get %d" % (age, height, weight, age + height + weight)
-
